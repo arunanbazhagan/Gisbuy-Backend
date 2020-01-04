@@ -1785,3 +1785,5 @@ select * from OrderTable
 
 select  p.Product_Id,o.ord_id,o.email from Product_Table  p  join OrderTable o  on 
 p.Product_Id=o.prod_id where ord_id=144
+
+go
